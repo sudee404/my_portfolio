@@ -1,0 +1,680 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <title>Sudi </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="description" content="My Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/cover.css' %}" type="text/css">
+    <script src="https://kit.fontawesome.com/1e7e7945ce.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl carousel css and theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example1" data-bs-smooth-scroll="true" tabindex="0">
+
+    <header>
+        <nav class="navbar navbar-expand navbar-light justify-content-center fixed-top">
+            <div id="navbar-example1" class="nav navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home </a>
+                <a class="nav-item nav-link" href="#about">About Me</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="page bg-light" id="home">
+            <div class="container-fluid pt-5 ">
+                <div class="container row shadow rounded mt-5 m-auto">
+                    <div class="col-lg-6 col-sm-12 mt-5 ">
+
+                        <div class="p-5 bg-light">
+                            <div class="container">
+                                <h1 class="display-3 text-center">sudi abdalla</h1>
+                                <p class="lead"><i class="fas fa-cog fa-spin"></i> I'm a <span
+                                        class=" typewrite text-success  mt-5" data-period="3000"
+                                        data-type='[ "Web Developer..", "Data Scientist.", "Freelancer", "Full Stack Web Developer" ]'></span>
+                                </p>
+                                <hr class="my-2">
+                                <div class="text-center">
+                                    <p class="text-primary">Social Links</p>
+                                    <p class="lead mx-auto display-3">
+
+                                        <a href="https://www.linkedin.com/in/sudi-abdalla-6b484b211/" target="_blank"><i
+                                                class="fa fa-linkedin text-primary" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/suddy_ranks/" target="_blank"><i
+                                                class="fa fa-instagram text-danger" aria-hidden="true"></i></a>
+                                        <a href="https://wa.me/254748181129" target="_blank"><i
+                                                class="fa fa-whatsapp text-success" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/sudee404" target="_blank"><i
+                                                class="fa fa-github text-dark" aria-hidden="true"></i></a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6 d-none d-lg-block d-lx-block">
+                        <div class="container-fluid">
+                            <img src="{% static 'img/code4.png' %}" class="img img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="lead text-center mx-auto mt-3">
+                            <a class="btn btn-lg" href="#about" role="button"><i class="fa fa-arrow-circle-down fa-beat"
+                                    aria-hidden="true"
+                                    style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page bg-light" id="about">
+            <div class="container-fluid p-5 ">
+                <div class="container row shadow rounded mt-3 m-auto bg-dark text-light">
+                    <div class="col-lg-6 d-none d-lg-block d-lx-block mt-5 ">
+                        <div class="container-fluid">
+                            <img src="{% static 'img/code4.png' %}" class="img img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-5 ">
+                        <div>
+                            <div class="container">
+
+                                <p class="display-6 text-center">About Me</p>
+                                <hr>
+                                <p class="lead">
+                                    <span class="text-warning">Name</span> : <span>Sudi Abdalla</span><br>
+                                    <span class="text-warning">Profile</span> : <span>Web Developer & Data
+                                        Scientist</span><br>
+                                    <span class="text-warning">Email</span> : <span>sudaise18@gmail.com</span><br>
+                                    <span class="text-warning">Phone 1</span> : <span>+2547110087441</span><br>
+                                    <span class="text-warning">Phone 2</span> : <span>+254748181129</span><br>
+
+                                </p>
+                                <p class="lead text-center text-danger">Summary</p>
+                                <hr class="my-1">
+                                <p class="lead">Dedicated programmer with a nack and passion for python</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <p class="lead text-center mx-auto mt-3">
+                            <a class="btn btn-lg" href="#skills" role="button"><i
+                                    class="fa fa-arrow-circle-down fa-beat text-secondary" aria-hidden="true"
+                                    style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="page bg-light" style="height:100vh;" id="skills">
+            <div class="container-fluid p-5">
+                <div class="container row shadow rounded mt-3 m-auto bg-secondary text-light">
+
+                    <div class="col-12 mt-5 ">
+                        <div class="p-5 pt-0">
+                            <h5 class="display-6 text-center">Skills</h5>
+                            <hr class="my-2">
+                            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="btn btn-outline-light active rounded-pill m-2" id="all-tab"
+                                        data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab"
+                                        aria-controls="home" aria-selected="true">All</a>
+
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="btn btn-outline-light rounded-pill m-2" id="science-tab"
+                                        data-bs-toggle="tab" data-bs-target="#science" type="button" role="tab"
+                                        aria-controls="science" aria-selected="false">Data
+                                        Science</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="btn btn-outline-light rounded-pill m-2" id="web-tab"
+                                        data-bs-toggle="tab" data-bs-target="#web" type="button" role="tab"
+                                        aria-controls="web" aria-selected="false">Web
+                                        Development</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="btn btn-outline-light rounded-pill m-2" id="other-tab"
+                                        data-bs-toggle="tab" data-bs-target="#other" type="button" role="tab"
+                                        aria-controls="other" aria-selected="false">Others</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" style="height:16rem;overflow:scroll;">
+                                <div class="tab-pane active text-light " id="all" role="tabpanel"
+                                    aria-labelledby="all-tab">
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Django</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">HTML</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">JavaScript</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                                    aria-valuemin="0" aria-valuemax="100">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">CSS</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                                    aria-valuemin="0" aria-valuemax="100">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Python</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">jQuery</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Bootstrap</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto ">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Numpy</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Pandas</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Seaborn</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Matplotlib</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">C/C++</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                                    aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto my-3">
+                                        <div class="col-2 my-auto text-center">Java</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                                    aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane text-light" id="science" role="tabpanel"
+                                    aria-labelledby="science-tab">
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Python</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Numpy</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Pandas</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Seaborn</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Matplotlib</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane text-light" id="web" role="tabpanel" aria-labelledby="web-tab">
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Django</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">HTML</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">JavaScript</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                                    aria-valuemin="0" aria-valuemax="100">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">CSS</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                                    aria-valuemin="0" aria-valuemax="100">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Python</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">jQuery</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">Bootstrap</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto ">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                                                    role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                                    aria-valuemin="0" aria-valuemax="100">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane text-light" id="other" role="tabpanel" aria-labelledby="other-tab">
+                                    <div class="row mx-auto mt-3">
+                                        <div class="col-2 my-auto text-center">C/C++</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                                    aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto my-3">
+                                        <div class="col-2 my-auto text-center">Java</div>
+                                        <div class="col-1"> : </div>
+                                        <div class="col-8 my-auto">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                                    aria-valuemin="0" aria-valuemax="100">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="lead text-center mx-auto">
+                            <a class="btn btn-lg" href="#portfolio" role="button"><i
+                                    class="fa fa-arrow-circle-down fa-beat text-primary" aria-hidden="true"
+                                    style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <div class="page" id="portfolio">
+            <div class="container-fluid pt-5 ">
+                <div class="container row shadow rounded mt-3 m-auto bg-primary text-light">
+
+                    <div class="col-12 ">
+                        <div class="p-5 pt-4">
+                            <h5 class="display-6 text-center">Portfolio</h5>
+                            <hr class="my-2">
+                            <p class="lead">Projects done</p>
+                            <div class="owl-carousel owl-carousel-others owl-theme owl-loaded shadow rounded "
+                                style="max-height:90vh;">
+                                <div class="owl-stage-outer shadow rounded m-2">
+
+                                    <div class="owl-stage">
+                                       
+                                        <div class="owl-item ">
+                                            <a href="https://ectopuz.pythonanywhere.com" style="text-decoration:none;">
+                                                <div class="card mb-2" style="max-height:310px">
+                                                    <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&q=60"
+                                                        class="card-img-top" alt="..."
+                                                        style="max-height:300px;overflow:hidden;">
+                                                    <div class="card-img-overlay cover" style="max-height:300px">
+                                                        <div class="container-fluid">
+                                                            <p class="lead text-light">Blog Site</p>
+                                                            <hr class="my-2">
+                                                            <p class="text-light">
+                                                                A simple blog site capable of accepting comments ,
+                                                                posting and deleting ,and starring stories to read later
+                                                            </p>
+                                                            <p>
+                                                                <span class="text-danger mb-2">
+                                                                    Beginner Web Developer
+                                                                </span><br>
+                                                                <span class="text-warning">
+                                                                    HTML, JavaScript, CSS, Python
+                                                                </span><br>
+                                                                <span class="text-light">
+                                                                    PythonAnywhere
+                                                                </span>
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="owl-item ">
+                                            <a href="https://familychorale.pythonanywhere.com/" style="text-decoration:none;">
+                                                <div class="card mb-2" style="max-height:310px">
+                                                    <img src="{% static 'img/code2.png' %}"
+                                                        class="card-img-top" alt="..."
+                                                        style="height:300px;overflow:hidden;">
+                                                    <div class="card-img-overlay cover" style="max-height:300px">
+                                                        <div class="container-fluid">
+                                                            <p class="lead text-light">Music Group Website 2.0</p>
+                                                            <hr class="my-2">
+                                                            <p class="text-light">
+                                                                A site for a music group to post their events and music , in video or audio format
+                                                            </p>
+                                                            <p>
+                                                                <span class="text-danger mb-2">
+                                                                    Intermediate Web Developer
+                                                                </span><br>
+                                                                <span class="text-warning">
+                                                                    HTML, JavaScript, CSS, Python
+                                                                </span><br>
+                                                                <span class="text-light">
+                                                                    PythonAnywhere
+                                                                </span>
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="owl-item ">
+                                            <a href="http://family-chorale.herokuapp.com/" style="text-decoration:none;">
+                                                <div class="card mb-2" style="max-height:310px">
+                                                    <img src="{% static 'img/code3.png' %}"
+                                                        class="card-img-top" alt="..."
+                                                        style="height:300px;overflow:hidden;">
+                                                    <div class="card-img-overlay cover" style="max-height:300px">
+                                                        <div class="container-fluid">
+                                                            <p class="lead text-light">Music Group Website</p>
+                                                            <hr class="my-2">
+                                                            <p class="text-light">
+                                                                A site for a music group to post their events and music, and also allow download of media
+                                                            </p>
+                                                            <p>
+                                                                <span class="text-danger mb-2">
+                                                                    Intermediate Web Developer
+                                                                </span><br>
+                                                                <span class="text-warning">
+                                                                    HTML, JavaScript, CSS, Python
+                                                                </span><br>
+                                                                <span class="text-light">
+                                                                    Heroku
+                                                                </span>
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="lead text-center mx-auto">
+                            <a class="btn btn-lg" href="#contact" role="button"><i
+                                    class="fa fa-arrow-circle-down fa-beat text-light" aria-hidden="true"
+                                    style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="contact">
+            <div class="container-fluid pt-5 ">
+                <div class="container row shadow rounded mt-3 m-auto">
+
+                    <div class="col-12 ">
+                        <div class="p-5 pt-4">
+                            <h5 class="display-6 text-center tw-bold">Contact</h5>
+                            <div class="p-5 pt-0 text-dark text-center">
+                                <div class="container">
+                                    <p class="lead">To hire me for a gig or to simply just chat about programming,</p>
+                                    <hr class="my-2">
+                                    <p>connect with me on any of the following</p>
+                                    <p class="lead mx-auto display-3">
+                                        <a href="https://www.linkedin.com/in/sudi-abdalla-6b484b211/" target="_blank"><i
+                                            class="fa fa-linkedin text-primary" aria-hidden="true"></i></a>
+                                   
+                                    <a href="https://wa.me/254748181129" target="_blank"><i
+                                            class="fa fa-whatsapp text-success" aria-hidden="true"></i></a>
+                                    </p>
+                                </div>
+                                <div class="container text-center">
+                                    <a class="btn btn-outline-dark btn-sm " href="https://drive.google.com/file/d/1hQ0YH-g1z9-HsUANm6bZ39IToNrPMtKp/view?usp=sharing" role="button">
+                                    Get Resume    
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="lead text-center mx-auto">
+                            <a class="btn btn-lg" href="#home" role="button"><i
+                                    class="fa fa-arrow-circle-up fa-beat text-dark" aria-hidden="true"
+                                    style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="{% static 'js/typewrite.js' %}"></script>
+</body>
+
+</html>
